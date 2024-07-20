@@ -30,10 +30,10 @@
 #include <QWidget>
 #include <QSharedData>
 #include <QExplicitlySharedDataPointer>
+#include <QXmlStreamReader>
+#include <QXmlStreamWriter>
 
 class QPainter;
-class QXmlStreamReader;
-class QXmlStreamWriter;
 
 namespace Collections {
     class Collection;

@@ -24,11 +24,12 @@
 
 #include "amarok_export.h" // we are exporting it for the tests
 
+#include <QXmlStreamReader>
+#include <QXmlStreamWriter>
+
 namespace Collections {
     class Collection;
 }
-class QXmlStreamReader;
-class QXmlStreamWriter;
 
 namespace Dynamic {
 

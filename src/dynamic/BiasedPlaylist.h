@@ -27,9 +27,8 @@
 
 #include <QObject>
 #include <QPointer>
-
-class QXmlStreamWriter;
-class QXmlStreamReader;
+#include <QXmlStreamReader>
+#include <QXmlStreamWriter>
 
 namespace Dynamic
 {

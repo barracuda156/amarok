@@ -22,9 +22,8 @@
 #include "MetaValues.h"
 
 #include <QMutex>
-
-class QXmlStreamReader;
-class QXmlStreamWriter;
+#include <QXmlStreamReader>
+#include <QXmlStreamWriter>
 
 namespace StatSyncing
 {

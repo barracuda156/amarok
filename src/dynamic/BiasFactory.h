@@ -23,9 +23,8 @@
 #include "dynamic/Bias.h"
 
 #include <QObject>
-
-class QXmlStreamReader;
-class QXmlStreamWriter;
+#include <QXmlStreamReader>
+#include <QXmlStreamWriter>
 
 namespace Dynamic
 {

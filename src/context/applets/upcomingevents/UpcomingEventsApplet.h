@@ -27,10 +27,11 @@
 #include "ui_upcomingEventsGeneralSettings.h"
 #include "ui_upcomingEventsVenueSettings.h"
 
+#include <QXmlStreamReader>
+
 class KConfigDialog;
 class QGraphicsLinearLayout;
 class QListWidgetItem;
-class QXmlStreamReader;
 class UpcomingEventsMapWidget;
 class UpcomingEventsStackItem;
 class UpcomingEventsStack;
