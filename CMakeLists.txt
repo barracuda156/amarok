@@ -2,6 +2,8 @@ project(Amarok)
 
 cmake_minimum_required(VERSION 2.6.2)
 
+cmake_policy(SET CMP0004 OLD)
+
 set( CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules )
 
 message(STATUS "${CMAKE_MODULE_PATH}")
